@@ -1,10 +1,10 @@
 Dependencies for Project 'printf', Target 'printf': (DO NOT MODIFY !)
-F (.\startup.s)(0x59DE23B3)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 524"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\UART.c)(0x59DE23B3)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
-I (UART.h)(0x59DE23B3)
-I (inc/tm4c123gh6pm.h)(0x59DDE0E0)
-F (.\main.c)(0x59DE799D)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="524" -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+F (.\startup.s)(0x5ADF7949)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_printf-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "LM4F120 SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\UART.c)(0x5ADF7949)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_printf-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLM4F120 -Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)
+I (UART.h)(0x5ADF7949)
+I (inc/tm4c123gh6pm.h)(0x5ADF7949)
+F (.\main.c)(0x5ADF7C20)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_printf-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\LM4F_DFP\1.0.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DLM4F120 -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BE5B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BE5B4)

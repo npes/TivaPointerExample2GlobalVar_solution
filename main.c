@@ -35,11 +35,11 @@ int main(void){
 	
 	while(1){
 	increment1ByReference(&var);	//call increment1 function with adress of var as parameter
-	printf ("globalVar is: %d\n", var); //print value of var
+	printf ("var is: %d\n", var); //print value of var
 	Delay();
 	
 	increment2ByReference(&var);	//call increment2 function with adress of var as parameter
-	printf ("globalVar is: %d\n", var); //print value of var
+	printf ("var is: %d\n", var); //print value of var
 	Delay();
 	};
 }
