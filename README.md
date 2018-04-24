@@ -1,7 +1,7 @@
 # TivaPointerExample2GlobalVar_solution
 
 main.c
-Runs on LM4F120/TM4C123
+Runs on LM4F120/TM4C123 in Keil uVision5 mdk-lite
 UART runs at 115,200 baud rate 
 Daniel Valvano
 May 23, 2014
